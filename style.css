@@ -150,6 +150,10 @@ code {
   word-spacing: 0px;
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
 /********** NAVBAR START **********/
 
 nav {
@@ -306,7 +310,7 @@ nav > a {
   max-width: 550px;
 }
 
-h2 > i {
+.fa-comment-alt {
   display: inline;
   margin-left: 5px;
   font-size: 20px;
@@ -374,20 +378,32 @@ h2 > i {
 
 /********** MAIN ARTICLES SECTION END **********/
 
-/*** THREE TO TWO ARTICLES SECTION START ***/
+/*** THREE TO three ARTICLES SECTION START ***/
 
-#three-to-two-div {
+#three-to-three-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  padding: 50px 40px;
+  padding: 20px 40px;
 }
 
-.three-to-two-article {
-  padding: 0 21px;
+.three-to-three-article {
+  padding: 30px 21px;
+  transition: all 0.2s ease-out;
 }
 
-.three-to-two-date {
+.three-to-three-article:hover {
+  z-index: 2;
+  transform: scale(1.02);
+  background-color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.three-to-three-first-row {
+  height: 509px;
+}
+
+.three-to-three-date {
   font-size: 16.3269px;
   font-variant-caps: small-caps;
   font-variant-east-asian: normal;
@@ -402,7 +418,7 @@ h2 > i {
   text-transform: lowercase;
 }
 
-.three-to-two-headline {
+.three-to-three-headline {
   max-width: 371px;
   margin-bottom: 20px;
   padding-bottom: 10px;
@@ -419,7 +435,7 @@ h2 > i {
   text-size-adjust: 100%;
 }
 
-.three-to-two-headline > a {
+.three-to-three-headline > a {
   font-size: 27.3703px;
   font-weight: 700;
   line-height: 32.8444px;
@@ -430,7 +446,7 @@ h2 > i {
   color: black;
 }
 
-.three-to-two-author-line {
+.three-to-three-author-line {
   font-size: 16.3269px;
   font-weight: 700;
   line-height: 18.7759px;
@@ -438,7 +454,7 @@ h2 > i {
   margin-bottom: 20px;
 }
 
-.three-to-two-author {
+.three-to-three-author {
   color: rgb(102, 102, 102);
   cursor: pointer;
   font-size: 16.3269px;
@@ -455,10 +471,15 @@ h2 > i {
   text-size-adjust: 100%;
 }
 
-.three-to-two-text {
+.three-to-three-text {
   max-width: 400px;
+  font-family: 'Yrsa', serif;
   font-size: 20.2273px;
   line-height: 33.221px;
   word-break: break-word;
   color: rgb(51, 51, 51);
+}
+
+#members-div {
+  background-color: #666;
 }
