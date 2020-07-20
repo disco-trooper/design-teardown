@@ -127,6 +127,12 @@ table {
 
 /********** CSS RESET END **********/
 
+@font-face {
+  font-family: Blogger-Sans;
+  font-weight: bold;
+  src: url('./assets/fonts/BloggerSans-Bold.ttf');
+}
+
 code {
   color: rgb(51, 51, 51);
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -378,7 +384,7 @@ nav > a {
 
 /********** MAIN ARTICLES SECTION END **********/
 
-/*** THREE TO three ARTICLES SECTION START ***/
+/*** THREE TO THREE ARTICLES SECTION START ***/
 
 #three-to-three-div {
   display: grid;
@@ -388,6 +394,7 @@ nav > a {
 }
 
 .three-to-three-article {
+  position: relative;
   padding: 30px 21px;
   transition: all 0.2s ease-out;
 }
@@ -397,6 +404,22 @@ nav > a {
   transform: scale(1.02);
   background-color: #fff;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.three-to-three-article:hover > h3 > a {
+  transition: all 0.1s ease-in;
+}
+
+.three-to-three-article:hover > h3 > a {
+  color: #666;
+  text-decoration-color: #666;
+  text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff,
+    -3px 0 #fff;
+}
+
+.three-to-three-article:hover .article-arrow {
+  color: white;
+  background-color: #575757;
 }
 
 .three-to-three-first-row {
@@ -472,6 +495,7 @@ nav > a {
 }
 
 .three-to-three-text {
+  position: relative;
   max-width: 400px;
   font-family: 'Yrsa', serif;
   font-size: 20.2273px;
@@ -480,6 +504,104 @@ nav > a {
   color: rgb(51, 51, 51);
 }
 
-#members-div {
+#three-to-three-div .members-div {
   background-color: #666;
+  height: 710px;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+
+.members-div:hover {
+  transform: scale(1);
+  background-color: #666;
+  box-shadow: none;
+}
+
+.members-div > a {
+  display: block;
+  text-align: center;
+}
+
+#singing-barista {
+  max-width: 258px;
+  margin-bottom: 30px;
+}
+
+.three-to-three-next-rows {
+  height: 734px;
+}
+
+.members-headline {
+  margin-bottom: 20px;
+  font-family: Blogger-Sans;
+  font-size: 45.04px;
+  line-height: 54.048px;
+  text-decoration: none;
+  color: #fff;
+  text-decoration-line: underline;
+  text-decoration-color: #a4a4a4;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.members-text {
+  max-width: 320px;
+  margin: 0 auto;
+  font-family: 'Yrsa', serif;
+  font-size: 20.4086px;
+  line-height: 33.4929px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
+  text-size-adjust: 100%;
+  word-break: break-word;
+  color: white;
+}
+
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: #a4a4a4;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.white-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 14.8px 19.8px;
+  font-family: Blogger-Sans;
+  font-size: 19.8px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #6c6c6c;
+  border-radius: 11px;
+  box-shadow: none;
+}
+
+.white-button:hover {
+  color: #666;
+  cursor: pointer;
+}
+
+.members-login {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Yrsa', serif;
+  font-size: 15.726px;
+  height: 30.8594px;
+  line-height: 23.589px;
+  color: white;
+}
+
+.article-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  font-family: 'Yrsa', serif;
+  font-size: 30px;
+  color: #666;
+  padding: 40px 51px;
+  transition: all 0.2s ease-out;
 }
