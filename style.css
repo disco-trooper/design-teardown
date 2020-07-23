@@ -156,6 +156,19 @@ code {
   word-spacing: 0px;
 }
 
+strong {
+  color: rgb(255, 255, 255);
+  font-family: 'Yrsa', serif;
+  font-size: 20.4086px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 33.4929px;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
+  text-size-adjust: 100%;
+  word-break: break-word;
+}
+
 .no-break {
   white-space: nowrap;
 }
@@ -625,11 +638,12 @@ nav > a {
 }
 
 #all-latest {
-  height: 15px;
+  height: 22px;
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 100px;
   font-family: 'Yrsa', serif;
+  font-weight: 300;
   font-size: 17.3065px;
   font-variant-caps: small-caps;
   letter-spacing: 1px;
@@ -915,9 +929,10 @@ nav > a {
   margin-top: -50px;
   margin-bottom: -50px;
   grid-column: span 2;
-  height: 15px;
+  height: 22px;
   display: block;
   font-family: 'Yrsa', serif;
+  font-weight: 300;
   font-size: 17.3065px;
   font-variant-caps: small-caps;
   letter-spacing: 1px;
@@ -932,3 +947,72 @@ nav > a {
 }
 
 /******** COMMUNITY ARTICLES END ********/
+
+#book2-ad-div {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  height: 307px;
+  padding: 71px 51px;
+  background-color: #666;
+}
+
+#featured-line {
+  margin-bottom: 5.2452px;
+  margin-top: 0px;
+  font-family: 'Yrsa', serif;
+  font-size: 19.3269px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 18.7759px;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  color: white;
+}
+
+#book2-ad-title {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Blogger-Sans;
+  font-size: 49.04px;
+  font-weight: 700;
+  line-height: 58.848px;
+  padding-top: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: #a4a4a4;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+#book2-ad-description {
+  max-width: 800px;
+  margin-block-start: 27.6086px;
+  margin-top: 27.6086px;
+  font-family: 'Yrsa', serif;
+  font-weight: 300;
+  font-size: 20.4086px;
+  line-height: 33.4929px;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
+  text-size-adjust: 100%;
+  word-break: break-word;
+  color: white;
+}
+
+#book2-ad-div button.white-button {
+  margin: 0 0;
+  margin-top: 20px;
+}
+
+#book2-ad-div img {
+  position: relative;
+  top: -30%;
+  transform: rotate(-10deg);
+  transition: all 0.25s ease;
+}
+
+#book2-ad-div img:hover {
+  transform: rotate(0deg) translateX(20px) translateY(15px);
+}
