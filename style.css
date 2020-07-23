@@ -159,7 +159,6 @@ code {
 strong {
   color: rgb(255, 255, 255);
   font-family: 'Yrsa', serif;
-  font-size: 20.4086px;
   font-weight: 700;
   letter-spacing: normal;
   line-height: 33.4929px;
@@ -231,6 +230,7 @@ nav > a {
   background-color: #777;
   border: 0;
   border-radius: 11px;
+  color: white;
 }
 
 /********** NAVBAR END **********/
@@ -611,8 +611,7 @@ nav > a {
   line-height: 23px;
   color: #6c6c6c;
   border-radius: 11px;
-  border-color: rgb(255, 255, 255);
-  border-width: 1px;
+  border-width: 0;
   box-shadow: none;
 }
 
@@ -948,6 +947,8 @@ nav > a {
 
 /******** COMMUNITY ARTICLES END ********/
 
+/******** BOOK2 AD START ********/
+
 #book2-ad-div {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -1016,3 +1017,304 @@ nav > a {
 #book2-ad-div img:hover {
   transform: rotate(0deg) translateX(20px) translateY(15px);
 }
+
+/******** BOOK2 AD END ********/
+
+/******** GUIDES SECTION START ********/
+
+#guides-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  min-height: 1369px;
+  gap: 60px 30px;
+  padding: 90px 68px;
+  background-color: #f6f3f2;
+}
+
+#guides-section > div {
+  background-color: white;
+}
+
+.guides-first-row {
+  min-height: 339px;
+  padding: 39px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px;
+  border-radius: 11px;
+}
+
+.guides-second-row {
+  min-height: 743px;
+  padding: 39px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px;
+  border-radius: 11px;
+}
+
+.smashing-guide-line {
+  color: rgb(32, 32, 32);
+  font-family: 'Yrsa', serif;
+  font-size: 17.764px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 18.9168px;
+  margin-bottom: 7.882px;
+  text-rendering: optimizelegibility;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+}
+
+.smashing-guide-headline {
+  cursor: pointer;
+  display: inline;
+  font-family: Blogger-Sans;
+  font-size: 42.04px;
+  font-weight: 700;
+  line-height: 54.048px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
+}
+
+.smashing-guide-text {
+  max-width: 550px;
+  color: rgb(51, 51, 51);
+  font-weight: 300;
+  font-family: 'Yrsa', serif;
+  font-size: 22.4086px;
+  line-height: 33.4929px;
+  margin-block-start: 32px;
+  margin-top: 32px;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  word-break: break-word;
+}
+
+#guides-section button {
+  margin: 30px 0;
+}
+
+#newsletter {
+  min-height: 780px;
+  padding: 20.4px 0;
+  border-radius: 11px;
+  background-color: #5f5f5f;
+  background-image: linear-gradient(#5f5f5f 60%, #777777 100%);
+}
+
+#newsletter img {
+  display: block;
+  margin: 0 auto;
+  max-height: auto;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#newsletter a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  font-family: Blogger-Sans;
+  font-size: 49.04px;
+  font-weight: 700;
+  line-height: 58.848px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1px;
+  text-decoration-style: solid;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.9) 1px 1px 1px;
+}
+
+#newsletter-email {
+  margin-top: 20px;
+  padding: 8px 39.2px 16px 39.2px;
+}
+
+#newsletter-text {
+  display: block;
+  margin-block-end: 27.6086px;
+  margin-block-start: 27.6086px;
+  margin-bottom: 27.6086px;
+  margin-top: 27.6086px;
+  font-family: 'Yrsa', serif;
+  font-weight: 300;
+  font-size: 23.4086px;
+  line-height: 33.4929px;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+  text-size-adjust: 100%;
+  color: rgb(255, 255, 255);
+  max-width: 580px;
+  word-break: break-word;
+}
+
+#input-div {
+  border-radius: 11px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: 'Yrsa', serif;
+  font-size: 23.4699px;
+  height: 61.1875px;
+  letter-spacing: -0.5px;
+  line-height: 26.9904px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+}
+
+#email {
+  padding-bottom: 17.6024px;
+  padding-left: 23.4699px;
+  padding-right: 23.4699px;
+  padding-top: 17.6024px;
+  appearance: none;
+  background-attachment: scroll;
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-left-radius: 11px;
+  border-top-right-radius: 0px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: text;
+  display: block;
+  flex-basis: 0%;
+  flex-grow: 4;
+  flex-shrink: 1;
+  font-family: 'Yrsa', serif;
+  font-size: 23.4699px;
+  font-stretch: 100%;
+  font-weight: 300;
+  height: 61.1875px;
+  letter-spacing: normal;
+  line-height: 26.9904px;
+  outline-color: rgb(0, 0, 0);
+  outline-style: none;
+  outline-width: 0px;
+  text-align: start;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  max-width: 362.219px;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+}
+
+#submit {
+  align-items: flex-start;
+  appearance: none;
+  background-color: #525252;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 11px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-color: rgb(221, 221, 221);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 11px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: default;
+  display: block;
+  flex-basis: 0%;
+  flex-grow: 2;
+  flex-shrink: 1;
+  font-family: Blogger-Sans;
+  font-size: 23.4699px;
+  font-stretch: 100%;
+  font-weight: 700;
+  height: 61.1875px;
+  letter-spacing: normal;
+  line-height: 26.9904px;
+  text-align: center;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+  user-select: none;
+  white-space: pre;
+  max-width: 197.078px;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+}
+
+#unsubscribe {
+  background-color: #515151;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: 'Yrsa', serif;
+  font-size: 18.3677px;
+  min-height: 72.3438px;
+  margin-top: 30px;
+  line-height: 27.5516px;
+  margin-left: 84.2344px;
+  margin-right: 84.2344px;
+  padding-bottom: 9.18387px;
+  padding-left: 18.3677px;
+  padding-right: 18.3677px;
+  padding-top: 9.18387px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-size-adjust: 100%;
+}
+
+#more-guides {
+  margin: 0 auto;
+  width: fit-content;
+  grid-column: span 2;
+  height: 22px;
+  display: inline-block;
+  font-family: 'Yrsa', serif;
+  font-weight: 300;
+  font-size: 17.3065px;
+  font-variant-caps: small-caps;
+  letter-spacing: 1px;
+  line-height: 17.6024px;
+  text-transform: uppercase;
+  border-bottom-color: rgb(211, 58, 44);
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+/******** GUIDES SECTION END ********/
