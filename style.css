@@ -242,7 +242,7 @@ nav > a {
 #do-not-miss-text {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 23%;
   transform: translateX(-50%);
   text-align: center;
   box-sizing: border-box;
@@ -449,7 +449,7 @@ nav > a {
 }
 
 .three-to-three-first-row {
-  height: 509px;
+  min-height: 509px;
 }
 
 .three-to-three-date {
@@ -649,7 +649,7 @@ nav > a {
   line-height: 17.6024px;
   text-align: center;
   text-transform: uppercase;
-  border-bottom-color: rgb(211, 58, 44);
+  border-bottom-color: #666;
   border-bottom-style: solid;
   border-bottom-width: 5px;
   color: rgb(51, 51, 51);
@@ -813,11 +813,11 @@ nav > a {
 }
 
 .link {
-  text-decoration-color: rgb(0, 111, 198);
+  text-decoration-color: #575757;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  color: rgb(0, 111, 198);
+  color: #575757;
 }
 
 /******** TOP PERSON DIV END ********/
@@ -938,7 +938,7 @@ nav > a {
   line-height: 17.6024px;
   text-align: center;
   text-transform: uppercase;
-  border-bottom-color: rgb(211, 58, 44);
+  border-bottom-color: #666;
   border-bottom-style: solid;
   border-bottom-width: 5px;
   color: rgb(51, 51, 51);
@@ -1310,7 +1310,7 @@ nav > a {
   letter-spacing: 1px;
   line-height: 17.6024px;
   text-transform: uppercase;
-  border-bottom-color: rgb(211, 58, 44);
+  border-bottom-color: #666;
   border-bottom-style: solid;
   border-bottom-width: 5px;
   color: rgb(51, 51, 51);
@@ -1318,3 +1318,146 @@ nav > a {
 }
 
 /******** GUIDES SECTION END ********/
+
+/******** FOOTER START ********/
+
+footer {
+  height: 595px;
+  padding-bottom: 48.9807px;
+  padding-top: 32.6538px;
+  background-color: #666;
+}
+
+footer h4 {
+  color: rgb(255, 255, 255);
+  font-family: 'Yrsa', serif;
+  font-size: 17.6942px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 35.2656px;
+  margin-block-end: 29.3884px;
+  margin-block-start: 29.3884px;
+  margin-bottom: 29.3884px;
+  margin-top: 29.3884px;
+  opacity: 1;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+}
+
+#footer-container {
+  max-width: 1322px;
+  margin: 0 auto;
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Yrsa', serif;
+  font-size: 16.3269px;
+  height: 208.125px;
+  line-height: 18.7759px;
+  /* list-style: url(./assets/images/bullet.svg); */
+  /* list-style-position: outside;
+  list-style-type: none; */
+  margin-block-end: 16.3269px;
+  margin-block-start: 16.3269px;
+  margin-bottom: 16.3269px;
+  margin-top: 16.3269px;
+}
+
+li {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: 'Yrsa', serif;
+  font-size: 25.1049px;
+  font-weight: 300;
+  height: 40px;
+  line-height: 39.0374px;
+  margin-bottom: 6.02624px;
+  margin-top: 6.02624px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  word-break: break-word;
+  transition: color 0.2s ease-out;
+}
+
+li:hover {
+  color: #111;
+  cursor: pointer;
+}
+
+li::before {
+  content: '•';
+  margin: 0 0.18em 0 0.18em;
+  display: inline-block;
+  color: #333;
+  font-size: 35px;
+  position: relative;
+  top: 2px;
+}
+
+#commitment {
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 13.3269px;
+  line-height: 27.3703px;
+  color: white;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: 'Yrsa', serif;
+  font-weight: 300;
+  font-size: 17.3269px;
+  line-height: 27.3703px;
+  color: white;
+}
+
+.footer-text span {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.footer-bottom-text {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 540px;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+
+.footer-bottom-text a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: 'Yrsa', serif;
+  font-weight: 200;
+  font-size: 18.3269px;
+  line-height: 27.3703px;
+  padding-top: 10px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  word-break: break-word;
+}
+
+.footer-bottom-text span {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: 'Yrsa', serif;
+  font-weight: 200;
+  font-size: 18.3269px;
+  line-height: 27.3703px;
+  padding-top: 10px;
+  text-align: center;
+  word-break: break-word;
+}
